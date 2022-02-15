@@ -1,0 +1,146 @@
+int x;
+
+x=12.5;
+x=12;
+x="hello";
+
+Object x;
+
+x=12.5;
+x=12;
+x="Hello";
+
+Boxing and Unboxing : 
+________________________
+
+
+The concept of converting value types to reference types known as boxing, and reference types
+to value types known as unboxing. 
+
+object is the type, that which can be used to for boxing and unboxing. 
+
+What is the to level class in dotnet 
+
+System.object is the top level class. 
+
+It has predefined methods
+
+	GetHashCode()
+	GetType()
+	ToString() : This method will be caled automatically once you print the object. 
+	Equals() 
+
+class Demo
+{
+   int a,b;
+   a=5;
+   b=7;
+}
+
+The above code will throw error, because statements to be written in method not in 
+class directly. 
+
+But, if you want to give default values to the member varailble of the class, then we need
+the help of constructors. 
+
+Constructors : 
+
+A constructor is a special member, which used to initialize the member variables of the 
+class, it is special because it has the same name as that of class name. 
+
+Rules : 
+_______
+
+	-> It will not contains any return type
+
+	-> It will not return any value
+
+	-> It will be invoked automatically once the instance of the class created
+
+	-> A constructor can be overloaded. 
+
+There are 2 types of constructors known as
+
+	(i) static constructor : These are called class constructors which are used 
+		to initialize the static variables of the class, these constructors are
+		invoked automatically before control reaches the entry point. 
+		These constructors will not be overloaded. 
+
+	(ii) instance constructor : These are the constructors that which are invoked 
+	automatically once the instance of the class created. These constructors can be
+	overloaded. 
+
+
+
+static class : These are the class, that only contains static methods, we cannot 
+create an object to the static class, we can call static methods by using class name. 
+
+Extension Method : 
+
+You can extend the methods of particular class from another class, known as extension method. 
+
+This can be achieved by using static classes. 
+
+
+static variables : 
+
+These are called class variables, used to retains the old value. 
+
+Inheritance : Deriving a new class from already existing class known as inheritance, the class which derived known as derived class, the class from which its derived known as base class. 
+
+Through inheritance, we can reduce the size of the program. 
+
+class First {
+....
+....
+}
+
+class Second : First {
+....
+....
+....
+}
+
+Once you create an object to Second class, then you can access all public/protected
+and internal members of base class. 
+
+base keyword : If you want to pass values from derived class to base class, then we need
+the help of base keyword. It has 2 forms as 
+
+	(i) base as a keyword
+
+	(ii) base as a constructor 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

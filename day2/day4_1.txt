@@ -1,0 +1,139 @@
+Exception Handling
+
+	It is a mechanism of handling the runtime errors, during execution of the program. Because there are 2 types of errors known as 
+
+	(i) Compile Time
+
+	(ii) Runtime 
+
+By using Exception Handling, we can overcome the runtime errors. 
+
+To handle errors, we have 3 blocks as 
+
+	(i) try block
+
+		This block contains statements, in which there is possibility of getting runtime errors, The statements which are placed in this block are treated as heavy weighted statemets as CLR allocates excess memory to them. 
+
+	(ii) catch block : Once exception raised in try block, then control will be forwarded to catch block, this block contains alternate statements for exceptions raised in try block. One try block can contains multiple catch blocks. 
+
+	(iii) finally : This block contains statements, that needs to be executed mandetorily irrespective of
+try and catch blocks. This block is not mandetory, but all the statements which are placed 
+in this block are executed as mandetory statements. 
+
+Exception is the top most class, from which all kinds of exceptions are derived.
+
+
+try {
+...
+...
+...
+} catch (Exception e) {
+...
+...
+...
+} finally {
+...
+...
+...
+}
+
+
+System exceptions are inadequate to handle in all the situations, to overcome this 
+we need the help of custom exceptions. Any class, that which derived from ApplicationException
+class can be treated as custom exception. 
+
+
+class CustomException : ApplicationException
+{
+
+  
+}
+
+You can write the error message and send to the corresponding class, using throw keyword. 
+
+Write a Program as sum of 2 numbers, 
+
+if any number < 0 then throw NegativeException, 
+
+if any number = 0 then throw NumberZeroException 
+
+else print the Sum. 
+
+Employ
+
+    Empno 
+    Name
+    Dept
+    Desig 
+    Basic
+
+Perform CRUD Operations. 
+
+validations : 
+
+Empno Not negative
+Name, Dept, Desig contains min 5 chars
+Basic must be between 1000 and 50000
+
+if fails throw EmployException
+
+Files : 
+________
+
+A file is a collection of data that which stores the output permanently. To deal with files, we need the help of System.IO namespace 
+
+to work with files, we have various classes as 
+
+FileStream 
+
+This class allows you to deal with files. 
+
+FileStream fs = new FileStream(filename,FileMode,FileAccess)
+
+FileMode :
+
+	-> Create : Used to create a new file, if the file exists, it overwrites the contents with new contents.
+
+	-> CreateNew : Used to create a new file, if the file exists, it throws an exception.
+
+	-> Open : Used to open existing file. 
+	
+	-> OpenOrCreate : Used to open existing file, if the file does not exist, it creates a new file.
+
+	-> Append : Used to add the contents at the end of the file.
+
+	-> Truncate : Used to delete the contents from the file. 
+
+FileMode : 
+
+	Read
+	Write
+	ReadWrite
+
+FileAccess : 
+
+StreamWriter : Used to write contents into the file. 
+
+StreamReader : Used to read contentents from the file. 
+
+  sr.BaseStream.Seek(0, SeekOrigin.Begin);
+
+
+means, once file opens, we dont known the position and line number, where the cursor places, now i have to reset the file pointer to 0 th character of beginning line, then we need to use
+
+  sr.BaseStream.Seek(0, SeekOrigin.Begin);
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+

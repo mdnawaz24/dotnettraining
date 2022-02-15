@@ -1,0 +1,237 @@
+
+
+class Demo
+{
+
+    static void Main()
+    {
+	Console.WriteLine("5"+3+8);
+	Console.WriteLine("5"+(3+8));
+	Console.WriteLine("5+3"+8);
+    }
+}
+
+____________________________________________________________________________________
+
+class Demo
+{
+    public void Show(int x) 
+    {
+       Console.WriteLine("Show Method w.r.t. Integer " +x);
+    }
+
+    public void Show(object x) 
+    {
+       Console.WriteLine("Show Method w.r.t. Object " +x);
+    }
+
+   static void Main()
+   {
+      Demo obj = new Demo();
+      obj.Show(12);
+   }
+}
+
+_____________________________________________________________
+
+ class Program
+    {
+        static void Main(string[] args)
+        {
+            string str = "Hello";
+            str.Concat(" World");
+            Console.WriteLine(str);
+        }
+    }
+
+The above code will return output as Hello, because 
+
+strings in .NET are immutable, as once they are assigned they cannot be changed
+by using any string methods. 
+
+__________________________________________________________________
+
+What is the difference between == and equals()
+
+
+
+
+
+class Demo
+{
+
+    public int sum(int x, int y=5) 
+    {
+	return x+y;
+    }
+
+    static void Main()
+    {
+	Demo obj = new Demo();
+	Console.WriteLine(obj.sum(12));
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+___________________________________________________________________________
+
+class Demo
+{
+    public void Show(double x) 
+    {
+       Console.WriteLine("Show Method w.r.t. double " +x);
+    }
+
+    public void Show(object x) 
+    {
+       Console.WriteLine("Show Method w.r.t. Object " +x);
+    }
+
+   static void Main()
+   {
+      Demo obj = new Demo();
+      obj.Show(12);
+   }
+}
+____________________________________________________________________________
+
+class First 
+{
+    public void Show() 
+    {
+       Console.WriteLine("Hi");
+    }
+}
+
+class Second : First
+{
+    public static void Show() 
+    {
+       Console.WriteLine("Bye");
+    }
+}
+
+class Program
+{
+   static void Main()
+   {
+       Second obj = new Second();
+       obj.Show();
+   }
+}
+
+_________________________________________________________________________________________
+
+
+
+class First {
+   private First() 
+   {
+      Console.WriteLine("First...");
+   }
+}
+
+class Second : First 
+{
+    public Second() {
+      Console.WriteLine("Second")
+    }
+}
+
+class Program
+{
+    static void Main() 
+    {
+        new Second(); 
+    }
+}
+
+__________________________________________________________________________
+
+
+class Demo 
+{
+     static void Main()
+     {
+	int choice=3;
+	switch(choice) 
+	{
+	    case 1 : 
+		Console.WriteLine("Hello");
+	    case 2 :
+		Console.WriteLine("Bye");
+	    case 3: 
+		Console.WriteLine("Viswakarma");
+	    case 4 :
+		Console.WriteLine("Bhavya");
+	    case 5 : 
+		Console.WriteLine("Prathyusha");
+	    case 6 :
+		Console.WriteLine("Tamanna");
+	    default : 
+		Console.WriteLine("Girish...");
+	}
+     }
+}
+
+______________________________________________________________________________________
+
+class Demo
+{
+     static void Main()
+     {
+	 if (null==null)
+	 {
+	    Console.WriteLine("Hi");
+	 }
+	 else
+	 {
+	    Console.WriteLine("Bye");
+	 }
+     }
+}
+
+____________________________________________________________________________________
+
+
+class First {
+   public void Show() {
+	Console.WriteLine("Hi");
+   }
+}
+
+class Second : First {
+   public void Show() {
+	Console.WriteLine("Bye");
+   }
+}
+
+class Program {
+    static void Main() {
+	First obj = new Second();
+	obj.Show();
+    }
+}
+
+
+
+
+
+
+
+
+
+
