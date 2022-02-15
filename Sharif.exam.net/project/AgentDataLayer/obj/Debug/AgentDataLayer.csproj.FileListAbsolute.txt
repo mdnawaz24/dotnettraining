@@ -1,0 +1,9 @@
+C:\Users\mdsha\source\repos\project\AgentDataLayer\bin\Debug\AgentDataLayer.dll
+C:\Users\mdsha\source\repos\project\AgentDataLayer\bin\Debug\AgentDataLayer.pdb
+C:\Users\mdsha\source\repos\project\AgentDataLayer\bin\Debug\clsAgent.dll
+C:\Users\mdsha\source\repos\project\AgentDataLayer\bin\Debug\clsAgent.pdb
+C:\Users\mdsha\source\repos\project\AgentDataLayer\obj\Debug\AgentDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\mdsha\source\repos\project\AgentDataLayer\obj\Debug\AgentDataLayer.csproj.CopyComplete
+C:\Users\mdsha\source\repos\project\AgentDataLayer\obj\Debug\AgentDataLayer.dll
+C:\Users\mdsha\source\repos\project\AgentDataLayer\obj\Debug\AgentDataLayer.pdb
+C:\Users\mdsha\source\repos\project\AgentDataLayer\obj\Debug\AgentDataLayer.csproj.AssemblyReference.cache

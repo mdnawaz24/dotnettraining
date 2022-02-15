@@ -1,0 +1,5 @@
+C:\Users\mdsha\source\repos\project\Exceptions1\bin\Debug\Exceptions1.dll
+C:\Users\mdsha\source\repos\project\Exceptions1\bin\Debug\Exceptions1.pdb
+C:\Users\mdsha\source\repos\project\Exceptions1\obj\Debug\Exceptions1.csproj.CoreCompileInputs.cache
+C:\Users\mdsha\source\repos\project\Exceptions1\obj\Debug\Exceptions1.dll
+C:\Users\mdsha\source\repos\project\Exceptions1\obj\Debug\Exceptions1.pdb

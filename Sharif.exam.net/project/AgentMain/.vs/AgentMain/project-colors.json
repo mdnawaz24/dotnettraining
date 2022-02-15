@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "292f2f59-5a33-4924-b24d-e427fd3dde4e": {
+      "ProjectGuid": "292f2f59-5a33-4924-b24d-e427fd3dde4e",
+      "DisplayName": "AgentMain",
+      "ColorIndex": 0
+    },
+    "f91c0123-9c05-4bbf-934d-56321f65d6c6": {
+      "ProjectGuid": "f91c0123-9c05-4bbf-934d-56321f65d6c6",
+      "DisplayName": "AgentEx",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

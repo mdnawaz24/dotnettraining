@@ -1,0 +1,5 @@
+C:\Users\mdsha\source\repos\project\clsAgent\bin\Debug\clsAgent.dll
+C:\Users\mdsha\source\repos\project\clsAgent\bin\Debug\clsAgent.pdb
+C:\Users\mdsha\source\repos\project\clsAgent\obj\Debug\clsAgent.csproj.CoreCompileInputs.cache
+C:\Users\mdsha\source\repos\project\clsAgent\obj\Debug\clsAgent.dll
+C:\Users\mdsha\source\repos\project\clsAgent\obj\Debug\clsAgent.pdb

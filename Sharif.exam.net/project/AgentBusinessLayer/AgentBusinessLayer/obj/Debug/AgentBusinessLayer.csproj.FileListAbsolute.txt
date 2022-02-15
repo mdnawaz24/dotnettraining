@@ -1,0 +1,1 @@
+C:\Users\mdsha\source\repos\project\A\AgentBusinessLayer\obj\Debug\AgentBusinessLayer.csproj.CoreCompileInputs.cache
